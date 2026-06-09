@@ -47,19 +47,19 @@
       <name>ФИОКонтрагент</name>
       <id>24</id>
       <items xsi:type="form:FormField">
-        <name>Контрагент</name>
-        <id>19</id>
+        <name>Владелец</name>
+        <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Контрагент</segments>
+          <segments>Объект.Owner</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КонтрагентРасширеннаяПодсказка</name>
-          <id>21</id>
+          <name>ВладелецРасширеннаяПодсказка</name>
+          <id>33</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -68,12 +68,12 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КонтрагентКонтекстноеМеню</name>
-          <id>20</id>
+          <name>ВладелецКонтекстноеМеню</name>
+          <id>32</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -81,7 +81,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
